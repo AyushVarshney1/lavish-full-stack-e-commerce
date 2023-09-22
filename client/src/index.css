@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Libre+Franklin:wght@500&family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Libre+Franklin:wght@500&family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Libre+Franklin:wght@500&family=Playfair+Display:wght@400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&family=Lato:wght@300;400;700&family=Libre+Franklin:wght@500&family=Playfair+Display:wght@400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&family=Lato:wght@300;400;700&family=Libre+Franklin:wght@500&family=Playfair+Display:wght@400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:wght@300;500&display=swap");
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Color Palette  */
+  --primaryColor: #663f2f;
+  --primaryColorDarker: #523225;
+  --primaryColorLighter: #814f3a;
+  /* --primaryColorDarker: #379683; */
+  --secondaryColor: #45cfdd;
+  --secondaryColorLighter: #a7ede7;
+  --lightColor: #edf5e1;
+  --textColor: Black;
+  --whiteColor: white;
+  --backgroundColor: #f7f7f7;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--backgroundColor);
+  /* background-color: var(--secondaryColor); */
+  /* background: linear-gradient(to bottom right, #45cfdd 0%, #a7ede7 70%); */
+  height: 100%;
+  font-family: "Heebo", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Slab", serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.registerDivCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.formInputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 45%;
+  margin-left: 34%;
+  margin-top: 30px;
+}
+
+.formInputLabel {
+  position: relative;
+  color: var(--textColor);
+  /* color: var(--whiteColor); */
+  font-weight: 500;
+  font-size: 20px;
+  left: -75%;
+}
+
+.formInput {
+  position: relative;
+  width: 100%;
+  width: calc(100% + (2 * 60%));
+  height: 35px;
+  background-color: var(--whiteColor);
+  border: 1px solid #bcbcbc;
+  border-radius: 5px;
+  margin-top: 2px;
+  left: -75%;
+}
+
+.alertContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alert {
+  width: 415px;
+  height: 40px;
+  /* background-color: #0f5132; */
+  border-radius: 5px;
+  margin: 13px 0px -13px 0px;
+  /* text-align: center; */
+  padding-top: 9px;
+  /* background-color: #ffbdc2; */
+  background-color: #ffd5d9;
+  /* font-size: 17px; */
+  /* -webkit-text-stroke: black;
+  -webkit-text-stroke-width: 0.15px; */
+  border: 1px solid #e61425;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+.boldAlertTextIcon {
+  margin-top: 2px;
+}
+
+.boldAlertText {
+  margin: 0px 0px 0px 4px;
+  font-size: 17px;
+  color: #842029;
+  font-weight: 500;
+}
+
+.alertText {
+  color: #e61425;
+  margin: 1px 0px 0px 4px;
+  font-weight: 400;
+}
+
+.alertCloseIcon {
+  margin: 25px 0px 0px -25px;
+  cursor: pointer;
+}
+
+.profileIcon {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.cartIcon {
+  cursor: pointer;
+}
+
+.frontPageBannerContainer {
+  display: grid;
+  place-items: center;
+}
+
+.frontPageBanner {
+  width: 90%;
+  height: 550px;
+  margin-top: 100px;
+}
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: absolute;
+  margin-top: 350px;
+  width: 200px;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+/* @media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+} */
+
+.cardContainer {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardContainerTitle {
+  font-family: "Heebo", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 5px;
+}
+
+.cards {
+  margin-top: 40px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 80px;
+}
+
+.card {
+  width: 272px;
+  height: 358px;
+  background-color: var(--whiteColor);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.25s;
+}
+
+.card:hover {
+  margin-top: -10px;
+}
+
+.cardTitle {
+  position: absolute;
+  background-color: var(--whiteColor);
+  padding: 2px 15px;
+  border: 4px solid black;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+}
+
+.mainPromisesContainer {
+  display: grid;
+  place-items: center;
+  margin-top: 100px;
+}
+
+.fashionBlogContainer {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fashionBlogContainerCard {
+  margin-top: 40px;
+  width: 1100px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.fashionBlogImage {
+  width: 660px;
+  height: 450px;
+  position: relative;
+  right: 2px;
+}
+
+.fashionBlogTextContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Heebo", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+.fashionBlogLink {
+  color: #b77943;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fashionBlogHeader {
+  font-weight: 600;
+  font-size: 40px;
+  position: relative;
+  top: -5px;
+  text-decoration: underline;
+}
+
+.fashionBlogLinkHeader {
+  position: relative;
+  top: -65px;
+}
+
+.fashionBlogSubHeader {
+  font-weight: 500;
+  font-size: 28px;
+  position: relative;
+  top: -90px;
+}
+
+.fashionBlogText {
+  text-align: center;
+  font-size: 14px;
+  padding: 0px 5px;
+  position: relative;
+  top: -100px;
+}
+
+.fashionBlogIcons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  position: relative;
+  top: -60px;
+}
+
+.brandContainer {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brandCards {
+  margin-top: 40px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.brandCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Heebo", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.brandCardImage {
+  width: 200px;
+  height: 150px;
+}
+
+.filterAndProductContainer{
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
+
+.productAndPaginationContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

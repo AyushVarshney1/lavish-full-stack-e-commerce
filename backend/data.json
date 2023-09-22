@@ -1,0 +1,384 @@
+[
+    {
+        "name": "Black Bag",
+        "price": 3999,
+        "category": "accessory",
+        "rating": 4.6,
+        "reviews": "112",
+        "productType": "Bag",
+        "productURL": "accessory_levi_bag.avif",
+        "brand": "Levi"
+    },
+    {
+        "name": "Gift Set",
+        "price": 2499,
+        "category": "accessory",
+        "rating": 4.3,
+        "reviews": "279",
+        "productType": "",
+        "productURL": "accessory_louis_wallet.webp",
+        "brand": "Louis Philippe"
+    },
+    {
+        "name": "Black Cap",
+        "price": 999,
+        "category": "accessory",
+        "rating": 4.7,
+        "reviews": "39",
+        "productType": "Cap",
+        "productURL": "accessory_nike_cap.webp",
+        "brand": "Nike"
+    },
+    {
+        "name": "Black Joggers",
+        "price": 2999,
+        "category": "kid",
+        "rating": 3.9,
+        "reviews": "12",
+        "productType": "Pant",
+        "productURL": "kid_armani_pant.webp",
+        "brand": "Armani"
+    },
+    {
+        "name": "White Tshirt",
+        "price": 1499,
+        "category": "kid",
+        "rating": 4.1,
+        "reviews": "391",
+        "productType": "Tshirt",
+        "productURL": "kid_armani_tshirt.jpg",
+        "brand": "Armani"
+    },
+    {
+        "name": "Grey Pant",
+        "price": 1999,
+        "category": "kid",
+        "rating": 4.4,
+        "reviews": "291",
+        "productType": "Pant",
+        "productURL": "kid_calvin_pant.webp",
+        "brand": "Calvin Klein"
+    },
+    {
+        "name": "Graphic White Tshirt",
+        "price": 999,
+        "category": "kid",
+        "rating": 3.8,
+        "reviews": "112",
+        "productType": "Tshirt",
+        "productURL": "kid_levi_tshirt.jpg",
+        "brand": "Levi"
+    },
+    {
+        "name": "Snow White Tshirt",
+        "price": 1799,
+        "category": "kid",
+        "rating": 4.1,
+        "reviews": "455",
+        "productType": "Tshirt",
+        "productURL": "kid_louis_tshirt.jpg",
+        "brand": "Louis Philippe"
+    },
+    {
+        "name": "Black Joggers",
+        "price": 2799,
+        "category": "kid",
+        "rating": 4.7,
+        "reviews": "776",
+        "productType": "Pant",
+        "productURL": "kid_nike_pant.jpg",
+        "brand": "Nike"
+    },
+    {
+        "name": "Grey Tshirt",
+        "price": 1199,
+        "category": "kid",
+        "rating": 4.7,
+        "reviews": "344",
+        "productType": "Tshirt",
+        "productURL": "kid_nike_tshirt.webp",
+        "brand": "Nike"
+    },
+    {
+        "name": "Graphic Polo Tshirt",
+        "price": 899,
+        "category": "kid",
+        "rating": 4.2,
+        "reviews": "244",
+        "productType": "Tshirt",
+        "productURL": "kid_uspa_tshirt.webp",
+        "brand": "U.S. Polo Assn."
+    },
+    {
+        "name": "Sport Shoes",
+        "price": 4999,
+        "category": "men",
+        "rating": 4.0,
+        "reviews": "784",
+        "productType": "Shoe",
+        "productURL": "men_armani_shoes.avif",
+        "brand": "Armani"
+    },
+    {
+        "name": "Printed Black Tshirt",
+        "price": "1899",
+        "category": "men",
+        "rating": 4.7,
+        "reviews": "655",
+        "productType": "Tshirt",
+        "productURL": "men_armani_tshirt.jpg",
+        "brand": "Armani"
+    },
+    {
+        "name": "Low Top White Sneakers",
+        "price": 3799,
+        "category": "men",
+        "rating": 4.5,
+        "reviews": "898",
+        "productType": "Shoe",
+        "productURL": "men_calvin_shoes.jpg",
+        "brand": "Calvin Klein"
+    },
+    {
+        "name": "Relaxed Fit White Tshirt",
+        "price": 2699,
+        "category": "men",
+        "rating": 4.6,
+        "reviews": "770",
+        "productType": "Tshirt",
+        "productURL": "men_calvin_tshirt.jpg",
+        "brand": "Calvin Klein"
+    },
+    {
+        "name": "3 Set Underwear",
+        "price": 4599,
+        "category": "men",
+        "rating": 4.8,
+        "reviews": "1.67k",
+        "productType": "Underwear",
+        "productURL": "men_calvin_underwears.webp",
+        "brand": "Calvin Klein"
+    },
+    {
+        "name": "Dark Blue Denim Jacket",
+        "price": "2999",
+        "category": "men",
+        "rating": 4.6,
+        "reviews": "877",
+        "productType": "Tshirt",
+        "productURL": "men_levi_jacket.jpg",
+        "brand": "Levi"
+    },
+    {
+        "name": "Blue Denim Pants",
+        "price": 4199,
+        "category": "men",
+        "rating": 4.7,
+        "reviews": "1.1k",
+        "productType": "Pant",
+        "productURL": "men_levi_pant.avif",
+        "brand": "Levi"
+    },
+    {
+        "name": "Brown Formal Shoes",
+        "price": 2899,
+        "category": "men",
+        "rating": 4.4,
+        "reviews": "298",
+        "productType": "Shoe",
+        "productURL": "men_levi_jacket.webp",
+        "brand": "Louis Philippe"
+    },
+    {
+        "name": "Polo Tshirt",
+        "price": 1499,
+        "category": "men",
+        "rating": 2.8,
+        "reviews": 9,
+        "productType": "Tshirt",
+        "productURL": "men_louis_tshirt.webp",
+        "brand": "Louis Philippe"
+    },
+    {
+        "name": "Black Tight Fit Joggers",
+        "price": 3499,
+        "category": "men",
+        "rating": 4.7,
+        "reviews": "1.28k",
+        "productType": "Pant",
+        "productURL": "men_louis_tshirt.jpg",
+        "brand": "Nike"
+    },
+    {
+        "name": "Air Force 1",
+        "price": 7999,
+        "category": "men",
+        "rating": 4.9,
+        "reviews": "3.55k",
+        "productType": "Shoe",
+        "productURL": "men_nike_shoes.jpg",
+        "brand": "Nike"
+    },
+    {
+        "name": "Tight Fit White Tshirt ",
+        "price": 1999,
+        "category": "men",
+        "rating": 4.3,
+        "reviews": "944",
+        "productType": "Tshirt",
+        "productURL": "men_nike_tshirt.jpg",
+        "brand": "Nike"
+    },
+    {
+        "name": "Blue Tshirt",
+        "price": 1999,
+        "category": "men",
+        "rating": 3.4,
+        "reviews": "28",
+        "productType": "Tshirt",
+        "productURL": "men_nike_tshirt_2.webp",
+        "brand": "Nike"
+    },
+    {
+        "name": "White Running Shoes",
+        "price": 3199,
+        "category": "men",
+        "rating": 4.2,
+        "reviews": "149",
+        "productType": "Shoe",
+        "productURL": "men_uspa_shoes.webp",
+        "brand": "U.S. Polo Assn."
+    },
+    {
+        "name": "Light Purple Tshirt",
+        "price": "599",
+        "category": "men",
+        "rating": 2.4,
+        "reviews": "71",
+        "productType": "Tshirt",
+        "productURL": "men_uspa_tshirt.webp",
+        "brand": "U.S. Polo Assn."
+    },
+    {
+        "name": "Tight Fit Pant",
+        "price": 3899,
+        "category": "women",
+        "rating": 4.6,
+        "reviews": "557",
+        "productType": "Pant",
+        "productURL": "women_armani_pant.webp",
+        "brand": "Armani"
+    },
+    {
+        "name": "White Sneakers",
+        "price": 6999,
+        "category": "women",
+        "rating": 4.5,
+        "reviews": "1.35k",
+        "productType": "Shoe",
+        "productURL": "women_armani_shoes.webp",
+        "brand": "Armani"
+    },
+    {
+        "name": "Printed White Tshirt",
+        "price": 2199,
+        "category": "women",
+        "rating": 4.3,
+        "reviews": "676",
+        "productType": "Tshirt",
+        "productURL": "women_armani_tshirt.webp",
+        "brand": "Armani"
+    },
+    {
+        "name": "Black Pant",
+        "price": 5999,
+        "category": "women",
+        "rating": 4.7,
+        "reviews": "2.1k",
+        "productType": "Pant",
+        "productURL": "women_calvin_pant.webp",
+        "brand": "Calvin Klein"
+    },
+    {
+        "name": "Flat Leather Shoes",
+        "price": 4199,
+        "category": "women",
+        "rating": 4.4,
+        "reviews": "721",
+        "productType": "Shoe",
+        "productURL": "women_calvin_shoes.jpg",
+        "brand": "Calvin Klein"
+    },
+    {
+        "name": "Graphic Black Tshirt",
+        "price": 2099,
+        "category": "women",
+        "rating": 4.7,
+        "reviews": "1.8k",
+        "productType": "Tshirt",
+        "productURL": "women_calvin_tshirt.avif",
+        "brand": "Calvin Klein"
+    },
+    {
+        "name": "3 Set Female Underwear",
+        "price": 5099,
+        "category": "women",
+        "rating": 4.7,
+        "reviews": "1.9k",
+        "productType": "Underwear",
+        "productURL": "women_calvin_underwear.jpg",
+        "brand": "Calvin Klein"
+    },
+    {
+        "name": "Light Blue Denim Pants",
+        "price": 4299,
+        "category": "women",
+        "rating": 4.6,
+        "reviews": "2.6k",
+        "productType": "Pant",
+        "productURL": "women_levi_pant.jpg",
+        "brand": "Levi"
+    },
+    {
+        "name": "Blue Formal Tshirt",
+        "price": 2199,
+        "category": "women",
+        "rating": 1.3,
+        "reviews": "17",
+        "productType": "Tshirt",
+        "productURL": "women_louis_shirt.webp",
+        "brand": "Louis Philippe"
+    },
+    {
+        "name": "Chunky Air Trainers",
+        "price": 6799,
+        "category": "women",
+        "rating": 4.1,
+        "reviews": "534",
+        "productType": "Shoe",
+        "productURL": "women_nike_shoes.webp",
+        "brand": "Nike"
+    },
+    {
+        "name": "Grey Pajamas",
+        "price": 2499,
+        "category": "women",
+        "rating": 4.6,
+        "reviews": "1.3k",
+        "productType": "Pant",
+        "productURL": "women_uspa_pant.webp",
+        "brand": "U.S. Polo Assn."
+    },
+    {
+        "name": "Cream Graphic Tshirt ",
+        "price": 499,
+        "category": "women",
+        "rating": 3.6,
+        "reviews": "34",
+        "productType": "Tshirt",
+        "productURL": "women_uspa_tshirt.webp",
+        "brand": "U.S. Polo Assn."
+    }
+
+
+]
